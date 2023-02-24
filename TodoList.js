@@ -84,13 +84,10 @@ class NewTodo extends Todo {
     console.log(prioritySort);
   }
 
-  titleFilter() {
-    const newFilter = this.tasks.sort((a, b) => {
-      const atask = a.title.toLocaleLowerCase();
-      const btask = b.title.toLocaleLowerCase();
-      return atask < btask ? -1 : atask > btask ? 1 : 0;
-    });
-    console.log(newFilter);
+  titleFilter(value) {
+    this.tasks = this.tasks.filter((item) =>
+      item.title.toLowerCase().includes(value.toLowerCase())
+    );
   }
 }
 
