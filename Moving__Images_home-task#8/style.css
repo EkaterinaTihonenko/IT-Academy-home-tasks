@@ -1,0 +1,60 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.content {
+   height: 100vh;
+   background: rgb(2, 0, 36);
+   background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(75, 9, 121, 1) 50%, rgba(128, 0, 255, 1) 100%);
+}
+
+img {
+   width: 300px;
+   margin: auto;
+   position: fixed;
+   top: 10px;
+   left: 10px;
+}
+
+img:nth-child(2) {
+   position: fixed;
+   top: 10px;
+   left: 320px;
+}
+
+img:nth-child(3) {
+   position: fixed;
+   top: 10px;
+   left: 630px;
+}
+img:nth-child(4) {
+   position: fixed;
+   top: 10px;
+   left: 940px;
+}
+
+img:nth-child(5) {
+   position: fixed;
+   top: 320px;
+   left: 10px;
+}
+
+img:nth-child(6) {
+   position: fixed;
+   top: 320px;
+   left: 320px;
+}
+
+img:nth-child(7) {
+   position: fixed;
+   top: 320px;
+   left: 630px;
+}
+
+img:nth-child(8) {
+   position: fixed;
+   top: 320px;
+   left: 940px;
+}
